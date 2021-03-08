@@ -1,3 +1,5 @@
+![banner](img/wine_banner.jpg)
+
 # Wine - Testing
 
 
@@ -41,3 +43,21 @@ __This is the result after two trains with modified datas ::__
 ### Adding class weight threw sklearn into our model
 
 Since our datas are skewed,a few methods opened up to me(Upsamble,Downsample,SMOTE,...). I went with the class-weight approach. With this argument the model learn how to deal with certains un or sur represented classes.
+
+### How to use
+
+1. Install the needed libraries
+
+´´´
+pip install -r requirements.txt
+´´´
+
+2. Launch the __main.py__ file
+
+_Every time you re-train the model, the learning curves of the model are saved in the img.files_
+
+> ###### More details in the notebooks
+
+### By
+
+__Christian Melot/BEcode trainee__
